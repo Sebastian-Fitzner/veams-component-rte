@@ -1,28 +1,38 @@
 {
-	"single": {
-		"rteContextClass": "content",
-		"rteClasses": "is-small",
-		"rteMd": "resources/templating/data/markdown/text.md"
-	},
-	"full": {
-		"rteContextClass": "content",
-		"rteClasses": "is-full",
-		"rtes": [
-			{
-				"rteMd": "resources/templating/data/markdown/h2.md"
+	"variations": {
+		"single": {
+			"settings": {
+				"rteContextClass": "content",
+				"rteClasses": "is-small"
 			},
-			{
-				"rteMd": "resources/templating/data/markdown/text.md"
-			},
-			{
-				"rteMd": "resources/templating/data/markdown/table.md"
-			},
-			{
-				"rteMd": "resources/templating/data/markdown/h3.md"
-			},
-			{
-				"rteMd": "resources/templating/data/markdown/ul.md"
+			"content": {
+				"rteMd": "resources/templating/partials/components/rte/markdown/markdown/text.md"
 			}
-		]
+		},
+		"full": {
+			"settings": {
+				"rteContextClass": "content",
+				"rteClasses": "is-full"
+			},
+			"content": {
+				"rtes": [
+					{
+						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/h2.md"
+					},
+					{
+						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/text.md"
+					},
+					{
+						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/table.md"
+					},
+					{
+						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/h3.md"
+					},
+					{
+						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/ul.md"
+					}
+				]
+			}
+		}
 	}
 }
