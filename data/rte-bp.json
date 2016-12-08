@@ -1,15 +1,21 @@
 {
 	"variations": {
 		"single": {
+			"docs": {
+				"variationName": "Single Markdown File"
+			},
 			"settings": {
 				"rteContextClass": "content",
 				"rteClasses": "is-small"
 			},
 			"content": {
-				"rteMd": "resources/templating/partials/components/rte/markdown/markdown/text.md"
+				"rteMd": "resources/templating/partials/components/rte/markdown/text.md"
 			}
 		},
 		"full": {
+			"docs": {
+				"variationName": "Multiple Markdown Files"
+			},
 			"settings": {
 				"rteContextClass": "content",
 				"rteClasses": "is-full"
@@ -17,19 +23,16 @@
 			"content": {
 				"rtes": [
 					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/h2.md"
+						"rteMd": "resources/templating/partials/components/rte/markdown/h2.md"
 					},
 					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/text.md"
+						"rteMd": "resources/templating/partials/components/rte/markdown/text.md"
 					},
 					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/table.md"
+						"rteMd": "resources/templating/partials/components/rte/markdown/h3.md"
 					},
 					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/h3.md"
-					},
-					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/markdown/ul.md"
+						"rteMd": "resources/templating/partials/components/rte/markdown/ul.md"
 					}
 				]
 			}
