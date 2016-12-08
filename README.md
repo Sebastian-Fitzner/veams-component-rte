@@ -9,7 +9,6 @@
 ## Description
 
 The RTE component is a simple partial which supports the usage of markdown files just by refencing them in your file system. 
-You need to make sure that you start the link to your file at the root directory.
 
 -----------
 
@@ -37,9 +36,9 @@ You need to make sure that you start the link to your file at the root directory
 
 - settings.rteContextClass {`String`} [default] - _Context class of the rte._
 - settings.rteClasses {`String`} - _Modifier classes for the rte._
+- settings.rteCWD {`Boolean`} - _Set to true if you want use the current working directory of the page._
+- settings.rteCWDLevelUp {`Number`} - _You can go up directories by providing a number._
 
 #### Content 
 
-- content.rteMd {`String`} - _Path to markdown file (starting at the root directory)._
-- content.rtes {`Array`} - _You can pass an array to this component which consists of multiple rteMd references._
-- content.rtes.rteMd {`String`} - _Path to markdown file (starting at the root directory)._
+- content.rteMd {`String`} - _Path to markdown file (starting at the root directory if you do not use `settings.rteCWD`)._
