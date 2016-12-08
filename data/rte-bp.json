@@ -2,7 +2,7 @@
 	"variations": {
 		"single": {
 			"docs": {
-				"variationName": "Single Markdown File"
+				"variationName": "Markdown file with full path"
 			},
 			"settings": {
 				"rteContextClass": "content",
@@ -12,29 +12,18 @@
 				"rteMd": "resources/templating/partials/components/rte/markdown/text.md"
 			}
 		},
-		"full": {
+		"cwdMd": {
 			"docs": {
-				"variationName": "Multiple Markdown Files"
+				"variationName": "Markdown file in current working directory"
 			},
 			"settings": {
 				"rteContextClass": "content",
-				"rteClasses": "is-full"
+				"rteClasses": "is-small",
+				"rteCWD": true,
+				"rteCWDLevelUp": 1
 			},
 			"content": {
-				"rtes": [
-					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/h2.md"
-					},
-					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/text.md"
-					},
-					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/h3.md"
-					},
-					{
-						"rteMd": "resources/templating/partials/components/rte/markdown/ul.md"
-					}
-				]
+				"rteMd": "markdown/text.md"
 			}
 		}
 	}
