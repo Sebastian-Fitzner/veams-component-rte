@@ -2,12 +2,8 @@
 
 ``` hbs
 // @INSERT :: START @id: rte, @tag: component-partial }}
-{{#with rte-bp.single}}
+{{#with rte-bp.variations.single}}
 	{{> c-rte}}
-{{/with}}
-
-{{#with rte-bp.full}}
-		{{> c-rte}}
 {{/with}}
 {{! @INSERT :: END }}
 ```
