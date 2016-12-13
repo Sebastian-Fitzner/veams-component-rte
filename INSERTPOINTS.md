@@ -15,7 +15,7 @@
 @import "components/_c-rte";
 // @INSERT :: END //
 
-// @INSERT :: START @tag: scss-import-self-contained //
+// @INSERT :: START @tag: scss-self-contained-import //
 @import "../templating/partials/components/rte/scss/_c-rte";
 // @INSERT :: END //
 ```
