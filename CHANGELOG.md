@@ -1,3 +1,12 @@
+### v2.0.3
+- Update changelog
+
+### v2.0.2
+- Update insertpoints
+
+### v2.0.1
+- Update insertpoints
+
 ### v2.0.0
 - Refactor data structure
 - Add all important notes to readme
