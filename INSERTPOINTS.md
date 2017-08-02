@@ -11,11 +11,7 @@
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @tag: scss-import //
-@import "components/_c-rte";
-// @INSERT :: END //
-
 // @INSERT :: START @tag: scss-self-contained-import //
-@import "../templating/partials/components/rte/scss/_c-rte";
+@import "../components/rte/scss/_c-rte";
 // @INSERT :: END //
 ```

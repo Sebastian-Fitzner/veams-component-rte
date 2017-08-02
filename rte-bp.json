@@ -20,7 +20,7 @@
 				"rteContextClass": "content",
 				"rteClasses": "is-small",
 				"rteCWD": true,
-				"rteCWDLevelUp": 1
+				"rteCWDLevelUp": "0"
 			},
 			"content": {
 				"rteMd": "markdown/text.md"
