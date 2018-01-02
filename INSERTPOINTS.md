@@ -5,7 +5,7 @@
 ``` hbs
 // @INSERT :: START @id: rte, @tag: component-partial }}
 {{#with rte-bp.variations.default}}
-	{{> c-rte}}
+	{{> rte}}
 {{/with}}
 {{! @INSERT :: END }}
 ```
