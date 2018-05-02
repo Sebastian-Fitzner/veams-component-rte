@@ -1,8 +1,9 @@
 {
 	"type": "component",
-	"contextData": "rte-bp",
+	"contextData": "rte",
+	"displayName": "rte",
 	"layout": "lyt-docs",
 	"scssFiles": [
-		"styles/_rte.scss"
+		"_rte.scss"
 	]
 }

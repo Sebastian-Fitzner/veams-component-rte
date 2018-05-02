@@ -1,10 +1,10 @@
 {
-	"name": "veams-component-rte",
-	"version": "5.1.0",
+	"name": "@veams/component-rte",
+	"version": "1.0.0",
 	"description": "The RTE component is a simple partial which supports the usage of markdown files just by refencing them in your file system.",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/Veams/veams-component-rte.git"
+		"url": "git://github.com/Veams/component-rte.git"
 	},
 	"keywords": [
 		"veams"
@@ -12,7 +12,7 @@
 	"author": "Sebastian Fitzner",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Veams/veams-component-rte/issues"
+		"url": "https://github.com/Veams/component-rte/issues"
 	},
-	"homepage": "https://github.com/Veams/veams-component-rte#readme"
+	"homepage": "https://github.com/Veams/component-rte#readme"
 }

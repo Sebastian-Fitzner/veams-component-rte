@@ -7,7 +7,6 @@ Global Styles
 --------------------------------------------------- */
 
 [data-css="c-rte"] {
-
 	/*
 	Headlines
 	----------------------------- */
@@ -32,7 +31,8 @@ Global Styles
 		}
 	}
 
-	strong, b {
+	strong,
+	b {
 		font-weight: 700;
 	}
 
@@ -60,6 +60,7 @@ Global Styles
 	table {
 		th {
 		}
+
 		td {
 		}
 	}

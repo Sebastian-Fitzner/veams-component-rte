@@ -6,12 +6,12 @@
 			},
 			"settings": {
 				"rteContextClass": "content",
-				"rteClasses": "is-small",
+				"rteClasses": false,
 				"rteCWD": true,
-				"rteCWDLevelUp": "0"
+				"rteCWDLevelUp": "1"
 			},
 			"content": {
-				"rteMd": "../markdown/text.md"
+				"rteMd": "markdown/text.md"
 			}
 		}
 	}
